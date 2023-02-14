@@ -16,16 +16,24 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to={"/accueil"}><span class="material-symbols-outlined">home</span><span class="link">Accueil</span></Link>
+                            <Link to={"/accueil"}>
+                                <span class="material-symbols-outlined">home</span><span class="link">Accueil</span>
+                            </Link>
                         </li>
                         <li>
-                            <Link to={"/experience"}><span class="material-symbols-outlined">person</span><span class="link">Experience</span></Link>
+                            <Link to={"/experience"}>
+                                <span class="material-symbols-outlined">person</span><span class="link">Experience</span>
+                            </Link>
                         </li>
                         <li>
-                            <Link to={"/portfolio"}><span class="material-symbols-outlined">image</span><span class="link">Portfolio</span></Link>
+                            <Link to={"/portfolio"}>
+                                <span class="material-symbols-outlined">image</span><span class="link">Portfolio</span>
+                            </Link>
                         </li>
                         <li>
-                            <Link to={"/contact"}><span class="material-symbols-outlined">alternate_email</span><span class="link">Contact</span></Link>
+                            <Link to={"/contact"}>
+                                <span class="material-symbols-outlined">alternate_email</span><span class="link">Contact</span>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
