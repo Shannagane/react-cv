@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  min-width: 320px;
+}
+
+main#app header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  background-color: dodgerblue;
+  color: white;
+}
+main#app header div.header {
+  text-align: center;
+}
+main#app header div.header div.header__image {
+  width: 60%;
+  height: 60%;
+  margin: 10px auto;
+}
+main#app header div.header div.header__image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+main#app header div.header h1.header__name {
+  display: none;
+}
+main#app header nav {
+  margin-top: 30px;
+}
+main#app header nav ul {
+  list-style-type: none;
+}
+main#app header nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70px;
+  padding: 0 10px;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  transition: font-size 100ms ease-in-out, background-color 100ms ease-in-out;
+}
+main#app header nav ul li a:hover {
+  background-color: rgba(0, 191, 255, 0.2);
+  font-size: 1.2rem;
+}
+main#app header nav ul li a span {
+  display: block;
+}
+main#app header nav ul li a span.link {
+  margin-left: 10px;
+  display: none;
+}
+
+@media screen and (min-width: 920px) {
+  main#app header {
+    width: 250px;
+  }
+  main#app header div.header h1.header__name {
+    display: block;
+  }
+  main#app header nav ul li a {
+    padding-left: 20%;
+    justify-content: inherit;
+  }
+  main#app header nav ul li a span.link {
+    display: block;
+  }
+}

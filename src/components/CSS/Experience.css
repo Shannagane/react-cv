@@ -1,0 +1,22 @@
+section {
+    padding-left: 80px;
+    padding-right: 20px;
+    min-height: 100vh;
+    padding-left: 270px;
+}
+
+section.experience {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.experience article {
+    width: 100%;
+    text-decoration: underline;
+    text-decoration-color: dodgerblue;
+    text-decoration-thickness: 3px;
+    font-size: 0.9rem;
+    padding: 10px 0;
+}

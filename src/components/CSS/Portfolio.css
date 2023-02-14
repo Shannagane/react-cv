@@ -1,0 +1,55 @@
+section.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.portfolio article {
+    width: 33%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 20px;
+}
+
+section.portfolio article figure {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 20%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    background-color: transparent !important;
+    transition: box-shadow 200ms ease-in-out, border-radius 200ms ease-in-out;
+}
+
+section.portfolio article figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.portfolio article figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    backdrop-filter: blur(10px);
+}
+
+section.portfolio article figure:hover {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 1%;
+}
+
+section {
+    padding-left: 270px;
+}

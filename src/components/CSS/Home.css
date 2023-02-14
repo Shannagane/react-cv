@@ -1,0 +1,40 @@
+section {
+    padding-left: 80px;
+    padding-right: 20px;
+    min-height: 100vh;
+    padding-left: 270px;
+}
+
+section.home {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.home .home__image {
+    text-align: center;
+    margin: 20px;
+}
+
+section.home .home__image img {
+    border-radius: 50%;
+}
+
+section.home h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+section.home p {
+    margin: 10px 0;
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+section.home>article {
+    text-align: justify;
+    line-height: 1.5rem;
+}
